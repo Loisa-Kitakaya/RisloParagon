@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- fonts: google-fonts cdn -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Monda|Quattrocento|Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- smtpJS cdn -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>RISLO PARAGON | HOME</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav>
+      <!-- LOGO -->
+      <div class="logo-container">
+        <a href="index.html"
+          ><h1 class="page-logo">
+            RISLO <span class="logo-edit">PARAGON</span>
+          </h1></a
+        >
+      </div>
+
+      <!-- navigation links -->
+      <ul class="nav-links">
+        <li><a href="about.html" class="nav-links_elem">About</a></li>
+        <li><a href="services.html" class="nav-links_elem">Services</a></li>
+        <li><a href="projects.html" class="nav-links_elem">Projects</a></li>
+        <li><a href="clients.html" class="nav-links_elem">Clients</a></li>
+        <li>
+          <a href="index.html#CONTACT" class="nav-links_elem">Contacts</a>
+        </li>
+      </ul>
+
+      <!-- clear -->
+      <div class="clear"></div>
+    </nav>
+
+    <!-- page content -->
+
+    <!-- page 1 -->
+    <div class="page1-content">
+      <!-- cover page -->
+      <div class="cover-page">
+        <h1 class="welcome-text">Welcome to RISLO PARAGON</h1>
+        <h5 class="caption">
+          Developing inovative strategies <br />
+          <h3 class="caption-edit">ACHIEVING GROWTH</h3>
+        </h5>
+      </div>
+    </div>
+
+    <!-- page 2 -->
+    <div class="page2-content container">
+      <!-- grid -->
+      <!-- services summary box -->
+      <div class="summary-box">
+        <!-- title -->
+        <h3 class="summary-box_title">SERVICES</h3>
+        <!-- summary -->
+        <p class="summary-box_summary">
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font. I’m a great place for you to
+          tell a story and let your users know a little more about you.
+        </p>
+        <!-- link -->
+        <a href="services.html"><span class="more-info_btn">More Info</span></a>
+      </div>
+
+      <!-- projects summary box -->
+      <div class="summary-box">
+        <!-- title -->
+        <h3 class="summary-box_title">PROJECTS</h3>
+        <!-- summary -->
+        <p class="summary-box_summary">
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font. I’m a great place for you to
+          tell a story and let your users know a little more about you.
+        </p>
+        <!-- link -->
+        <a href="projects.html"><span class="more-info_btn">More Info</span></a>
+      </div>
+
+      <!-- clients summary box -->
+      <div class="summary-box">
+        <!-- title -->
+        <h3 class="summary-box_title">CLIENTS</h3>
+        <!-- summary -->
+        <p class="summary-box_summary">
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font. I’m a great place for you to
+          tell a story and let your users know a little more about you.
+        </p>
+        <!-- link -->
+        <a href="clients.html"><span class="more-info_btn">More Info</span></a>
+      </div>
+    </div>
+
+    <!-- page 3 -->
+    <div class="page3-content" id="ABOUT">
+      <div class="container">
+        <!-- title -->
+        <h1 class="page3-title">ABOUT US</h1>
+        <!-- paragrphs 1 -->
+        <p>
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font. Feel free to drag and drop me
+          anywhere you like on your page. I’m a great place for you to tell a
+          story and let your users know a little more about you.
+        </p>
+        <!-- paragrphs 2 -->
+        <p>
+          This is a great space to write long text about your company and your
+          services. You can use this space to go into a little more detail about
+          your company. Talk about your team and what services you provide. Tell
+          your visitors the story of how you came up with the idea for your
+          business and what makes you different from your competitors.
+        </p>
+        <!-- link -->
+        <a href="about.html"><span class="read-more_btn">Read More</span></a>
+      </div>
+    </div>
+
+    <!-- page 4 -->
+    <div class="page4-content" id="CONTACT">
+      <!-- title -->
+      <h1 class="page4-title">CONTACT US</h1>
+      <!-- grid -->
+      <div class="contact-container">
+        <!-- contact form -->
+        <form action="" class="form-group container" id="site-form">
+          <input
+            required
+            type="text"
+            id="first-name"
+            name="first-name"
+            class="form-control"
+            placeholder="first name"
+          />
+          <br />
+          <input
+            required
+            type="text"
+            id="second-name"
+            name="second-name"
+            class="form-control"
+            placeholder="second name"
+          />
+          <br />
+          <input
+            required
+            id="email"
+            type="email"
+            name="email"
+            placeholder="email"
+            class="form-control"
+          />
+          <br />
+          <input
+            required
+            type="text"
+            id="subject"
+            name="subject"
+            class="form-control"
+            placeholder="subject"
+          />
+          <br />
+          <textarea
+            required
+            cols="30"
+            rows="10"
+            id="user-message"
+            name="user-message"
+            class="form-control"
+            placeholder="type your message here..."
+          ></textarea>
+          <br />
+          <button type="submit" class="btn btn-outline-success">
+            submit
+          </button>
+        </form>
+        <!-- location -->
+        <div class="location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1994.3429246081707!2d36.92415728196185!3d-1.3651642674318298!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1584441335838!5m2!1sen!2ske"
+            width="1350"
+            height="500"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- success form modal -->
+    <div class="popup-modal" id="pop-up">
+      <div class="popup-modal_card">
+        <span class="popup-modal_close_btn" id="close-popup">X</span>
+        <p id="popup-modal_text1"></p>
+        <p id="popup-modal_text2"></p>
+        <p id="popup-modal_text3"></p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer">
+      <!-- footer notes -->
+      <p class="footer-notes">
+        &copy; 2020 by Loisa Kitakaya | kitakayaloisa@gmail.com
+      </p>
+
+      <!-- contact icons -->
+      <div class="contact-icons">
+        <!-- facebook -->
+        <a href="#" class="contact-icons_elem"
+          ><img class="sm-icon" src="./img/facebook.svg" alt="facebook icon"
+        /></a>
+        <!-- twitter -->
+        <a href="#" class="contact-icons_elem" id="center-icon_spacing"
+          ><img class="sm-icon" src="./img/twitter.svg" alt="twitter icon"
+        /></a>
+        <!-- whatsapp -->
+        <a href="#" class="contact-icons_elem"
+          ><img class="sm-icon" src="./img/whatsapp.svg" alt="twitter icon"
+        /></a>
+      </div>
+    </footer>
+
+    <!-- navigate to top button -->
+    <div class="to-top-btn">
+      <a id="up-arrow" href="#">
+        <?xml version="1.0" encoding="iso-8859-1"?>
+        <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+        <svg
+          version="1.1"
+          id="Capa_1"
+          class="sm-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 54 54"
+          style="enable-background:new 0 0 54 54;"
+          xml:space="preserve"
+        >
+          <g>
+            <g>
+              <path
+                id="path-1"
+                style="fill:#4FBA6F;"
+                d="M53,27L53,27c0,14.359-11.641,26-26,26h0C12.641,53,1,41.359,1,27v0C1,12.641,12.641,1,27,1h0
+			C41.359,1,53,12.641,53,27z"
+              />
+              <pathid="path-2" style="fill:#4FBA6F;"
+              d="M27,54C12.112,54,0,41.888,0,27S12.112,0,27,0s27,12.112,27,27S41.888,54,27,54z
+              M27,2
+              C13.215,2,2,13.215,2,27s11.215,25,25,25s25-11.215,25-25S40.785,2,27,2z"/>
+            </g>
+            <path
+              id="path-3"
+              style="fill:#FFFFFF;"
+              d="M39,32.706c-0.256,0-0.512-0.098-0.707-0.293L27,21.12L15.707,32.413
+		c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414l11.498-11.498c0.666-0.666,1.752-0.666,2.418,0l11.498,11.498
+		c0.391,0.391,0.391,1.023,0,1.414C39.512,32.608,39.256,32.706,39,32.706z"
+            />
+          </g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+        </svg>
+      </a>
+    </div>
+  </body>
+  <!-- js -->
+  <script src="./js/main.js"></script>
+</html>

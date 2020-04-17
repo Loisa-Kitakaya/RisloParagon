@@ -1,0 +1,127 @@
+/* About Us page styles */
+.about-container,
+.services-container,
+.projects-container,
+.clients-container {
+  text-align: center;
+}
+
+.about-container .row,
+.clients-container .row {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.member-container_bio {
+  display: flex;
+  color: whitesmoke;
+  flex-direction: row;
+  background-color: #123562;
+}
+
+.member-container_credentials h4 {
+  top: 50%;
+  position: relative;
+  text-align: justify;
+  transform: translateY(-50%);
+}
+
+.about-page_title,
+.services-page_title,
+.projects-page_title,
+.clients-page_title {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  margin-top: 2rem;
+  color: #123562;
+  margin-bottom: 1rem;
+}
+
+.about-container p:nth-child(1) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-page_title_staff,
+.clients-page_title_customers {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: #123562;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Services page styles */
+.service-card-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  transition: 500ms;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  flex-direction: column;
+  transition-timing-function: ease-out;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.service-card-container:hover {
+  background-color: #d0deed;
+}
+
+.services-container .row {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.service-card-container img {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 215px;
+  transition: 300ms;
+}
+
+.service-card-container a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.service-card-container a:hover {
+  text-decoration: none;
+}
+
+.space {
+  padding: 0;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* project page styles */
+.projects-card-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex-direction: row;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.projects-card-container h4 {
+  padding-top: 1rem;
+}
+
+.project-text {
+  margin: 0;
+  padding: 1rem;
+  text-align: left;
+}
+
+.project-summary {
+  height: 200px;
+  overflow: auto;
+}
+
+/* clients page styles */
